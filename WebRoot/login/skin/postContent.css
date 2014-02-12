@@ -1,0 +1,391 @@
+.mbm {
+	margin-bottom: 10px !important;
+}
+#pgt .pg, #pgt .pgb {
+	margin-top: 5px;
+}
+.pg, .pgb {
+	line-height: 26px;
+}
+.pg a, .pg strong, .pgb a, .pg label {
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	border: 1px solid #C2D5E3;
+	color: #333333;
+	display: inline;
+	float: left;
+	height: 26px;
+	margin-left: 4px;
+	overflow: hidden;
+	padding: 0 8px;
+	text-decoration: none;
+}
+.pg a.nxt, .pgb a {
+	padding: 0 10px;
+}
+.pgb a {
+	background-image: url("../images/arw_l.gif");
+	background-position: 10px 50%;
+	padding-left: 25px;
+}
+#ct #postlist {
+	height:auto;
+}
+.bm {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CDCDCD;
+}
+.bm, .bn {
+	margin-bottom: 10px;
+}
+.pl table {
+	table-layout: fixed;
+	width: 100%;
+}
+.ptm {
+	padding-top: 10px !important;
+}
+.pbm {
+	padding-bottom: 10px !important;
+}
+.pls {
+	background: none repeat scroll 0 0 #E5EDF2;
+	border-right: 1px solid #C2D5E3;
+	overflow: hidden;
+	width: 160px;
+}
+.plc, .pls {
+	overflow: hidden;
+	vertical-align: top;
+}
+.xi1, .onerror {
+	color: #F26C4F;
+}
+.vwthd {
+	padding-right: 80px !important;
+}
+.plc {
+	padding: 0 20px;
+}
+.vwthd div.y {
+	display: inline;
+	margin-right: -60px;
+}
+#postlist div.y a:hover {
+	text-decoration:none;
+}
+.ts {
+	display: inline;
+	font: 700 16px 'Microsoft Yahei', 'Hei', Tahoma, 'SimHei', sans-serif;
+}
+.ts a {
+	font: 700 16px 'Microsoft Yahei', 'Hei', Tahoma, 'SimHei', sans-serif;
+}
+.ad .pls {
+	background: none repeat scroll 0 0 #C2D5E3;
+	height: 4px;
+	padding: 0;
+}
+.ad .plc {
+	background: none repeat scroll 0 0 #E5EDF2;
+	overflow: hidden;
+	padding: 0;
+}
+.pi {
+	border-bottom: 1px dashed #CDCDCD;
+	height: 16px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	padding: 10px 0;
+}
+.pls .pi {
+	padding-left: 15px;
+}
+.pls .avatar {
+	margin: 10px 15px;
+}
+.pls .avatar img {
+	background: url("../images/midavt_shadow.gif") repeat-x scroll 0 100% #FFFFFF;
+	padding: 5px 5px 8px;
+}
+.xg2 {
+	color: #666666;
+}
+.tns {
+	padding: 10px 0;
+}
+.pls .tns {
+	padding: 0 10px 10px;
+}
+.tns th, .tns td {
+	font-size: 12px;
+	text-align: center;
+}
+.tns th {
+	border-right: 1px solid #CCCCCC;
+	font-weight: 400;
+}
+.pls p, .pls .pil, .pls .o {
+	margin: 5px 10px 5px 20px;
+}
+.tns th p, .tns td p {
+	font-size: 14px;
+	margin: 0;
+}
+.pls .tns th p, .pls .tns td p {
+	font-size: 12px;
+	margin: 0;
+}
+.pls p, .pls .pil, .pls .o {
+	margin: 5px 10px 5px 20px;
+}
+.pls p em, .pls dt em {
+	color: #F26C4F;
+}
+.qdsmile {
+	list-style: none outside none;
+	margin-left: 7px;
+	margin-right: 7px;
+	padding: 3px;
+}
+.qdsmile li {
+	background: none repeat scroll 0 0 #F7FAFF;
+	border: 2px dashed #D1D8D8;
+	padding: 5px 0.4em;
+}
+caption, th {
+	font-weight: 400;
+	text-align: left;
+}
+.qdsmile li img {
+	margin-bottom: 5px;
+}
+.xl li {
+	margin: 2px 0;
+}
+.xl2 li {
+	float: left;
+	height: 1.5em;
+	margin: 2px 0;
+	overflow: hidden;
+	padding: 0;
+	width: 48.6%;
+}
+.pls .o li {
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	text-indent: 18px;
+}
+.pls .o .addflw {
+	background-image: url("../images/flw_ico.png");
+}
+.pls .o .pm2 {
+	background-image: url("../images/pmto.gif");
+}
+#fj {
+	margin-left: 5px;
+}
+#fj label, #fj input {
+	height: 16px;
+	line-height: 16px;
+	margin-right: 4px;
+	padding: 0;
+}
+label {
+	cursor: pointer;
+}
+.px, .pt, .ps, select {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background: url("../images/px.png") repeat-x scroll 0 0 #FFFFFF;
+	border-color: #848484 #E0E0E0 #E0E0E0 #848484;
+	border-image: none;
+	border-style: solid;
+	border-width: 1px;
+}
+.px, .pt {
+	line-height: 17px;
+	padding: 2px 4px;
+}
+.px {
+	height: 17px;
+}
+.p_fre {
+	width: auto !important;
+}
+#fj label, #fj input {
+	height: 16px;
+	line-height: 16px;
+	margin-right: 4px;
+	padding: 0;
+}
+.authicn {
+	cursor: pointer;
+}
+.pipe {
+	color: #CCCCCC;
+	margin: 0 5px;
+}
+.pct {
+	padding-bottom: 1em;
+}
+.a_pt, .a_pb {
+	background: url(../images/ad.gif) no-repeat scroll 0 50% transparent;
+	margin-bottom: 6px;
+	padding-left: 20px;
+}
+.uptown {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	height: 88px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 580px;
+}
+.logo {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	text-decoration: none;
+	word-spacing: 79px;
+}
+.cpro .logo {
+	background: url(../images/cpro_media_small.png) no-repeat scroll left top transparent;
+	bottom: 0;
+	height: 18px;
+	letter-spacing: 20px;
+	overflow: hidden;
+	right: 0;
+	text-align: justify;
+	width: 26px;
+}
+.house {
+	height: 100%;
+}
+.room {
+	display: block;
+	padding: 0;
+	text-align: left;
+	vertical-align: top;
+}
+.uptown3 .room {
+	float: left;
+	padding-top: 11px;
+	width: 170px;
+}
+.uptown3 .room0 {
+	padding-left: 8px;
+	padding-right: 25px;
+}
+.titwarp {
+	padding-bottom: 4px;
+}
+.tit {
+	color: #660000;
+	font-weight: bold;
+}
+.uptown3 .tit {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 16px;
+	text-decoration: underline;
+}
+.cnt {
+	color: #000000;
+	text-decoration: none;
+}
+.uptown3 .cnt {
+	font-size: 14px;
+	line-height: 16px;
+}
+.icon {
+	border: 1px solid #666666;
+	display: block;
+	float: left;
+	height: 45px;
+	margin: 1px 2px 0 0;
+	width: 45px;
+}
+.url {
+	color: #000000;
+	text-decoration: none;
+}
+.uptown3 .url {
+	font-size: 10px;
+	line-height: 11px;
+}
+.uptown3 .room1 {
+	padding-right: 25px;
+}
+.pcb {
+	clear: left;
+	margin-right: 130px;
+}
+.pcb {
+	margin-right: 0;
+}
+.t_fsz {
+	min-height: 100px;
+}
+.t_f, .t_f td {
+	font-size: 14px;
+}
+.plm {
+	vertical-align: bottom !important;
+}
+.mtw {
+	margin-top: 20px !important;
+}
+#p_btn {
+	line-height: 24px;
+}
+.cl:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.tshare {
+	padding-bottom: 10px;
+}
+.tshare strong {
+	float: left;
+	margin-right: 10px;
+}
+#p_btn a {
+	background: url("../images/share_btn.png") no-repeat scroll 0 0 transparent;
+	float: left;
+	margin-right: 3px;
+	padding-left: 8px;
+	padding-right: 4px;
+	vertical-align: top;
+	white-space: nowrap;
+}
+#p_btn .tshare a, #p_btn .tshare i {
+	background-image: none;
+	padding: 0;
+}
+#p_btn .tshare a {
+	color: #336699;
+	margin-right: 10px;
+}
+#p_btn i {
+	background: url("../images/share_btn.png") no-repeat scroll 100% 100% transparent;
+	cursor: pointer;
+	display: block;
+	font-style: normal;
+	padding-right: 8px;
+}
+#p_btn img {
+	float: left;
+	margin: 4px 3px 0 0;
+}
+#p_btn span {
+	color: #999999;
+	padding-left: 2px;
+}

@@ -1,0 +1,130 @@
+.nfl {
+	height: auto !important;
+	min-height: 320px;
+}
+
+.nfl .f_c {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 3px solid #F2F2F2;
+	margin: 60px auto;
+	padding: 20px;
+	width: 580px;
+}
+
+.alert_right,.alert_error,.alert_info {
+	background: url("../images/right.gif") no-repeat scroll 8px 8px
+		transparent;
+	font-size: 14px;
+	height: auto !important;
+	line-height: 160%;
+	min-height: 40px;
+	padding: 6px 0 6px 58px;
+}
+
+.f_c .alert_info {
+	background-image: url(../images/info.gif);
+}
+
+.f_c .alert_info p {
+	font-size: 14px;
+}
+
+.nfl #messagelogin {
+	border-top: 1px solid #CDCDCD;
+	margin-top: 5px;
+}
+
+.nfl #messagelogin .flb {
+	height: 20px;
+	line-height: 20px;
+	padding: 10px 10px 8px 0;
+}
+
+.flb em {
+	color: #336699;
+	float: left;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.nfl #messagelogin .rfm {
+	width: 500px;
+	border-bottom: 1px dotted #CDCDCD;
+	margin: 0 auto;
+}
+
+.rfm th {
+	padding-right: 10px;
+	text-align: right;
+	width: 10em;
+	font-weight: 400;
+}
+
+rfm th,.rfm td {
+	line-height: 24px;
+	padding: 10px 2px;
+	vertical-align: top;
+}
+
+.rfm a {
+	color: #336699;
+}
+
+.nfl .f_c .rfm th,.nfl .f_c .rfm td {
+	padding: 6px 2px;
+}
+
+.login_slct a {
+	background: url(../images/arrwd.gif) no-repeat scroll 100% 50%
+		transparent;
+	margin-right: -8px;
+	padding-right: 16px;
+}
+
+.rfm .px {
+	width: 220px;
+}
+
+.p_fre {
+	width: auto !important;
+}
+
+.px {
+	height: 17px;
+	line-height: 17px;
+	padding: 2px 4px;
+}
+
+.rfm label {
+	cursor: pointer;
+}
+
+.rfm select {
+	padding: 2px 2px 2px 1px;
+}
+
+.bw0 {
+	border: medium none !important;
+}
+
+.rfm .ck {
+	margin: 0 5px 1px 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.mbw {
+	margin-bottom: 20px !important;
+}
+
+.mbw strong {
+	font-weight: 700;
+	line-height: 21px;
+	padding: 0 10px;
+}
+.rfm hr.l {
+    background: none repeat scroll 0 0 #CDCDCD;
+    border: medium none;
+    color: #CDCDCD;
+    height: 1px;
+}

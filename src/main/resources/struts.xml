@@ -1,0 +1,31 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.convention.default.parent.package" value="default" />
+	<constant name="struts.convention.result.path" value="/" />
+	<constant name="struts.convention.exclude.parentClassLoader" value="false" />
+ 	<constant name="struts.multipart.maxSize" value="10485760000" />
+ <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.i18n.encoding" value="utf-8" />
+	<constant name="struts.custom.i18n.resources" value="ApplicationResources" />
+	<constant name="struts.objectFactory" value="spring" />
+	
+	<package name="default" extends="struts-default">
+	 	<result-types>
+            <result-type name="json" class="org.apache.struts2.json.JSONResult"/>
+       </result-types>
+		<interceptors>
+			<interceptor name="json" class="org.apache.struts2.json.JSONInterceptor"/>
+			<interceptor name="jsonValidation" class="org.apache.struts2.json.JSONValidationInterceptor"/>
+				<interceptor-stack name="frameworkStack">
+				<interceptor-ref name="defaultStack" />
+				<interceptor-ref name="jsonValidation"/>
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="frameworkStack" />
+<!-- 		<global-results/> -->
+	</package>
+</struts>

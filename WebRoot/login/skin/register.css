@@ -1,0 +1,90 @@
+.imre {
+	min-height: 300px;
+	padding-top: 10px !important;
+}
+
+.bm {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CDCDCD;
+}
+
+.bm_h {
+	background: none repeat scroll 0 0 #F2F2F2;
+	border-bottom: 1px solid #C2D5E3;
+	border-top: 1px solid #FFFFFF;
+	height: 31px;
+	line-height: 31px;
+	overflow: hidden;
+	padding: 0 10px;
+	white-space: nowrap;
+}
+
+.bm_c {
+	padding: 10px;
+}
+
+.mtw {
+	margin-top: 20px !important;
+}
+.bm_c .mtw .dash{
+	border-bottom: 1px dotted #CDCDCD;
+}
+.rfm {
+	margin: 0 auto;
+	width: 760px;
+}
+
+.rfm th,.rfm td {
+	line-height: 24px;
+	padding: 10px 2px;
+	vertical-align: top;
+}
+
+.rfm th {
+	padding-right: 10px;
+	text-align: right;
+	width: 10em;
+	font-weight: 400;
+}
+
+.rq {
+	color: red;
+}
+
+label {
+	cursor: pointer;
+}
+
+.rfm .px {
+	width: 220px;
+}
+
+.px {
+	height: 17px;
+}
+
+.px,.pt {
+	line-height: 17px;
+	padding: 2px 4px;
+}
+
+.rfm .tipwide {
+	padding-top: 0;
+}
+
+.bw0 strong {
+	font-weight: 700;
+	line-height: 21px;
+	padding: 0 10px;
+}
+
+hr.l {
+	background: none repeat scroll 0 0 #CDCDCD;
+	border: medium none;
+	color: #CDCDCD;
+	height: 1px;
+}
+
+.mbw {
+	margin-bottom: 20px !important;
+}

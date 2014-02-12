@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration PUBLIC "-//log4j/log4j Configuration//EN" "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- Debug使用-->
+			<param name="ConversionPattern"
+				value="%-5p [%37c] %3x - %m%n" />
+			<!-- Server使用-->
+			<!--<param name="ConversionPattern" value="%-6r [%-5.15t] %-5p %C{1}.%M %x - %m%n" />-->
+		</layout>
+		<!-- 定义日志输出级别-->
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="levelMin" value="TRACE" />
+			<param name="levelMax" value="ERROR" />
+			<param name="AcceptOnMatch" value="true" />
+		</filter>
+	</appender>
+
+	<appender name="FILE"
+		class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="/usr/local/tomcat6/logs/common.log" />
+		<param name="Append" value="true" />
+		<param name="datePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%-d{yyyy-MM-dd HH:mm:ss} %p [%c] %l - [%m]%n" />
+		</layout>
+	</appender>
+
+
+
+	<appender name="HBASE_LOG"
+		class="cn.ce.workflow.config.common.HbaseAppender">
+		<errorHandler
+			class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+		<param name="configPath" value="config/Mhbase-site.xml" />
+		<param name="rowKeyClass"
+			value="cn.ce.workflow.config.common.UUIDRowKey" />
+		<param name="putString"
+			value="hbase_log_info,code,%X{code}|hbase_log_info,level,%p|
+				hbase_log_info,name,[framework] %d - %c -%-4r [%t] %-5p %c %x - %m%n" />
+		<param name="tableName" value="HBASE_LOG" />
+	</appender>
+
+	<appender name="ASYNC_HBASE_LOG"
+		class="org.apache.log4j.AsyncAppender">
+		<errorHandler
+			class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+		<param name="BufferSize" value="2" />
+		<param name="LocationInfo" value="true" />
+		<param name="Blocking" value="false" />
+		<appender-ref ref="HBASE_LOG" />
+	</appender>
+	<category name="cn.ce.workflow">
+		<priority value="INFO" />
+		<!-- <appender-ref ref="ASYNC_HBASE_LOG" /> -->
+		<appender-ref ref="FILE" />
+	</category>
+	<category name="cn.ce.order">
+		<priority value="INFO" />
+		<appender-ref ref="ASYNC_HBASE_LOG" />
+		<appender-ref ref="FILE" />
+	</category>
+
+
+	<root>
+		<priority value="INFO" />
+		<appender-ref ref="STDOUT" />
+		<!-- 
+		<appender-ref ref="FILE" />
+		 -->
+	</root>
+</log4j:configuration>
